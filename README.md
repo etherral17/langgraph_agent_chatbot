@@ -13,6 +13,7 @@ LOG_LEVEL=DEBUG
     uvicorn app.main:app --reload
 
 5. Example call:
+Go to http://127.0.0.1:8000/docs and run the API
 POST http://localhost:8000/run-agent
 Body:
 {
